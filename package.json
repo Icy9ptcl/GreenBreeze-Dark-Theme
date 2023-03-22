@@ -1,0 +1,32 @@
+{
+  "name": "greenbreeze-dark",
+  "displayName": "GreenBreeze-Dark",
+  "description": "A VSCode theme focuses on green and blue-ish colour, with a bit more contrast to avoid hurting your eyes.",
+  "version": "0.0.1",
+  "publisher": "icy9ptcl",
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Icy9ptcl/GreenBreeze-Dark-Theme"
+  },
+  "keywords": [
+    "Theme",
+    "Green",
+    "Dark"
+  ],
+  "preview": true,
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Breeze Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/GreenBreeze-Dark-color-theme.json"
+      }
+    ]
+  }
+}
